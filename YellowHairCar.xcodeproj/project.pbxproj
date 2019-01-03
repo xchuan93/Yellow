@@ -15,6 +15,7 @@
 		4703D12C21DE02860061413F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703D12B21DE02860061413F /* main.m */; };
 		4703D13621DE02860061413F /* YellowHairCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703D13521DE02860061413F /* YellowHairCarTests.m */; };
 		4703D14121DE02860061413F /* YellowHairCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703D14021DE02860061413F /* YellowHairCarUITests.m */; };
+		C0184811EB688C4DE6F60224 /* Pods_YellowHairCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B5224C9F4904A54EFC27A8 /* Pods_YellowHairCar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,10 @@
 		4703D13C21DE02860061413F /* YellowHairCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowHairCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703D14021DE02860061413F /* YellowHairCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowHairCarUITests.m; sourceTree = "<group>"; };
 		4703D14221DE02860061413F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4703D15C21DE12B80061413F /* YellowHairCarPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowHairCarPCH.pch; sourceTree = "<group>"; };
+		B9ED43C967802D2A86AC3DF7 /* Pods-YellowHairCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowHairCar.release.xcconfig"; path = "Target Support Files/Pods-YellowHairCar/Pods-YellowHairCar.release.xcconfig"; sourceTree = "<group>"; };
+		C4B5224C9F4904A54EFC27A8 /* Pods_YellowHairCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowHairCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4504DAE773535ACF67C731 /* Pods-YellowHairCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowHairCar.debug.xcconfig"; path = "Target Support Files/Pods-YellowHairCar/Pods-YellowHairCar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0184811EB688C4DE6F60224 /* Pods_YellowHairCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,8 @@
 				4703D13421DE02860061413F /* YellowHairCarTests */,
 				4703D13F21DE02860061413F /* YellowHairCarUITests */,
 				4703D11A21DE02840061413F /* Products */,
+				B7994E66914660AB55310C8C /* Pods */,
+				748BABF9977F29DF9B291C92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +109,11 @@
 		4703D11B21DE02840061413F /* YellowHairCar */ = {
 			isa = PBXGroup;
 			children = (
+				4703D15921DE0B960061413F /* category */,
+				4703D15721DE0B960061413F /* Class */,
+				4703D15821DE0B960061413F /* Home */,
+				4703D15A21DE0BA30061413F /* Net */,
+				4703D15B21DE128E0061413F /* src */,
 				4703D11C21DE02840061413F /* AppDelegate.h */,
 				4703D11D21DE02840061413F /* AppDelegate.m */,
 				4703D11F21DE02840061413F /* ViewController.h */,
@@ -132,6 +145,59 @@
 			path = YellowHairCarUITests;
 			sourceTree = "<group>";
 		};
+		4703D15721DE0B960061413F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4703D15821DE0B960061413F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4703D15921DE0B960061413F /* category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		4703D15A21DE0BA30061413F /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		4703D15B21DE128E0061413F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4703D15C21DE12B80061413F /* YellowHairCarPCH.pch */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		748BABF9977F29DF9B291C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B5224C9F4904A54EFC27A8 /* Pods_YellowHairCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7994E66914660AB55310C8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF4504DAE773535ACF67C731 /* Pods-YellowHairCar.debug.xcconfig */,
+				B9ED43C967802D2A86AC3DF7 /* Pods-YellowHairCar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4703D14521DE02860061413F /* Build configuration list for PBXNativeTarget "YellowHairCar" */;
 			buildPhases = (
+				09BBDDE5D0BFAC9CAA12C5BA /* [CP] Check Pods Manifest.lock */,
 				4703D11521DE02840061413F /* Sources */,
 				4703D11621DE02840061413F /* Frameworks */,
 				4703D11721DE02840061413F /* Resources */,
+				E7B59A69B02423D07F475E66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +324,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09BBDDE5D0BFAC9CAA12C5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowHairCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B59A69B02423D07F475E66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YellowHairCar/Pods-YellowHairCar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YellowHairCar/Pods-YellowHairCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4703D11521DE02840061413F /* Sources */ = {
@@ -431,10 +540,14 @@
 		};
 		4703D14621DE02860061413F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4504DAE773535ACF67C731 /* Pods-YellowHairCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/xuwenyan/Desktop/YellowCar/YellowHairCar/YellowHairCar/src/YellowHairCarPCH.pch;
 				INFOPLIST_FILE = YellowHairCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +560,14 @@
 		};
 		4703D14721DE02860061413F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9ED43C967802D2A86AC3DF7 /* Pods-YellowHairCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/xuwenyan/Desktop/YellowCar/YellowHairCar/YellowHairCar/src/YellowHairCarPCH.pch;
 				INFOPLIST_FILE = YellowHairCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
